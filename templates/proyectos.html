@@ -1,0 +1,661 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Proyectos!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static './css/proyectos.css' %}">
+    <script src="{% static '../js/header.js' %}"></script>
+</head>
+
+<body>
+    <div class="headerw">
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    <div class="logoimg">
+                        <img class="logoimgg" src="{% static './media/images/16.9 negro.jpg' %}" alt="">
+                    </div>
+                    <div class="logotext">
+                        <h1 class="titulo">Rústico Producciones</h1>
+                    </div>
+                </div>
+                <div class="navbar">
+                    <nav>
+                        <div class="navbarin">
+                            <ul>
+                                <b><strong>
+                                        <div class="navbutton" id="inicio">
+                                            <a href="./index.html">
+                                                <li>Inicio</li>
+                                            </a>
+                                        </div>
+                                        <div class="navbutton" id="proyectos">
+                                            <a href="#">
+                                                <li>Proyectos</li>
+                                            </a>
+                                        </div>
+                                        <div class="navbutton" id="us">
+                                            <a href="./nosotros/nosotros.html">
+                                                <li>Nosotros</li>
+                                            </a>
+                                        </div>
+                                        <div class="navbutton" id="contacto">
+                                            <a href="./contacto.html">
+                                                <li>Contacto</li>
+                                            </a>
+                                        </div>
+                                </b></strong>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    
+    <main id="mainProyectos">
+    <!-- cortos 8 -->
+    <div class="cortometrajes contenedor" id="cortometrajesContenedor">
+
+        <div class="contenedorTituloControles">
+            <h3>Cortometrajes</h3>
+    
+            <div class="indicadores">
+    
+            </div>
+        </div>
+        <div class="contenedorPrincipal">
+        
+            <button role="button" id="flechaIzquierda" class="flechaIzquierda">
+                <i class="fa-solid fa-angle-left"></i>
+            </button>
+    
+            <div class="contenedorCarrusel">
+                <div class="carrusel">
+    
+                    <div class="poster" >
+                        <a href="#cortometrajesContenedor" target="" id="botonAbrirPopUp"><img src="{% static './media/images/Poster_Los_Recuerdos_600x849.png' %}" alt="Poster de Los Recuerdos"></a>
+                    </div>
+                    <div class="poster">
+                        <a href="#cortometrajesContenedor" target="" id="botonAbrirPopUpVista"><img src="{% static './media/images/Poster_Vista_600x849.png' %}" alt="Poster de Vista"></a>
+                    </div>
+                    <div class="poster">
+                        <a href="#cortometrajesContenedor" id="botonAbrirPopUpParamnesia"><img src="{% static './media/images/Poster_Paramnesia _600x849.png' %}" alt="Poster de Paramnesia"></a>
+                    </div>
+                    <div class="poster">
+                        <a href="#cortometrajesContenedor" id="botonAbrirPopUpDesconocer"><img src="{% static './media/images/Poster_Desconocer_600x849.png' %}" alt="Poster de Desconocer"></a>
+                    </div>
+                    <div class="poster">
+                        <a href="#cortometrajesContenedor" id="botonAbrirPopUpInstrucciones"><img src="{% static './media/images/Poster_Instrucciones_600x849.png' %}" alt="Poster de Instrucciones"></a>
+                    </div>
+                    <div class="poster">
+                        <a href="#cortometrajesContenedor" id="botonAbrirPopUpNocturna"><img src="{% static './media/images/Poster_Nocturna_600x849.png' %}" alt="Poster de Nocturma"></a>
+                    </div>
+                    <div class="poster">
+                        <a href="#cortometrajesContenedor" id="botonAbrirPopUpSomosJorge"><img src="{% static './media/images/Poster_Todos_Somos_Jorge_600x849.png' %}" alt="Poster de Todos Somos Jorge"></a>
+                    </div>
+                    <div class="poster">
+                        <a href="#cortometrajesContenedor" id="botonAbrirPopUpUltimoCuadroDorado"><img src="{% static './media/images/Poster_El_Ultimo_Cuadrado_Dorado_600x849.png' %}" alt="Poster de El Ultimo Cuadro Dorado"></a>
+                    </div>
+    
+    
+                </div>
+            
+    
+            </div>
+    
+            <button role="button" id="flechaDerecha" class="flechaDerecha">
+                <i class="fa-solid fa-angle-right"></i>
+            </button>    
+        </div>
+    </div>
+    
+    <!-- miniseries 3-->
+    <div class="miniseries contenedor" id="miniseriesContenedor">
+    
+        <div class="contenedorTituloControles">
+            <h3>Miniseries</h3>
+    
+            <div class="indicadores2"></div>
+        </div>
+    
+        <div class="contenedorPrincipal">
+        
+    <!--         <button role="button" id="flechaIzquierda2" class="flechaIzquierda">
+                <i class="fa-solid fa-angle-left"></i>
+            </button>
+        -->
+            <div class="contenedorCarrusel">
+                <div class="carrusel">
+    
+                    <div class="poster2">
+                        <a href="#miniseriesContenedor" id="botonAbrirPopUpProyectoAvellaneda"><img src="{% static './media/images/Poster_Proyecto Avellaneda_600x849.png' %}" alt="Poster de Proyecto Avellaneda"></a>
+                    </div>
+                    <div class="poster2">
+                        <a href="#miniseriesContenedor" id="botonAbrirPopUpTiempoCuarentena"><img src="{% static './media/images/Poster_Tiempo_Cuarentena _600x849.png' %}" alt="Poster de Tiempo de Cuarentena"></a>
+                    </div>
+                    <div class="poster2">
+                        <a href="#miniseriesContenedor" id="botonAbrirPopUpLosNoventa"><img src="{% static './media/images/Poster_Los_Noventa_600x849.png' %}" alt="Poster de Los Noventa"></a>
+                    </div>
+                  
+    
+    
+                </div>
+            
+    
+            </div>
+    <!-- 
+            <button role="button" id="flechaDerecha2" class="flechaDerecha">
+                <i class="fa-solid fa-angle-right"></i>
+            </button>
+    -->        
+        </div>
+    
+    
+    </div>
+    
+    <!-- documentales 1-->
+    <div class="documentales contenedor" id="documentalesContenedor">
+    
+        <div class="contenedorTituloControles">
+            <h3>Documentales</h3>
+    
+            <div class="indicadores3"></div>
+        </div>
+    
+        <div class="contenedorPrincipal">
+        
+    <!--         <button role="button" id="flechaIzquierda3" class="flechaIzquierda">
+                <i class="fa-solid fa-angle-left"></i>
+            </button>
+        -->
+            <div class="contenedorCarrusel">
+                <div class="carrusel">
+    
+                    <div class="poster3">
+                        <a href="#miniseriesContenedor" id="botonAbrirPopUp123Va"><img src="{% static './media/images/Poster_123va_600x849.png' %}" alt=""></a>
+                    </div>
+    
+                </div>
+            
+            </div>
+    <!-- 
+            <button role="button" id="flechaDerecha3" class="flechaDerecha">
+                <i class="fa-solid fa-angle-right"></i>
+            </button>
+    -->        
+        </div>
+    
+    
+    </div>
+    
+    <!------------------ menues--------------------->
+    <!-- Recuerdos-->
+    <div class="overlay" id="overlay">
+        <div class="popUp" id="popUp">
+            <div class="contenedorBoton">
+                <a href="#cortometrajesContenedor" id="botonCerrar" class="botonCerrar">
+                    <i class= "fas fa-times"></i>
+                </a>
+        </div>
+            <h4 class="tituloDescripcion">Los Recuerdos (2017)</h4>
+            <p>Sinopsis: 
+            Una pareja se toma un fin de semana para analizar qué hacer con su relación, su filosofía de vida y más.
+            </p>
+            <iframe class="videoEnlace" width="560" height="315" src="https://www.youtube.com/embed/gzlwSAsleBQ" 
+            title="Los Recuerdos" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
+            <br>
+            <div class="fichaTecnicaTitulo">Ficha técnica: </div>
+            <div class="fichaTecnicaTexto">
+                Protagonizado por Sol Richardson Y Caro Manetti Cusa
+                <br>
+                Producido por Micaela Di Pompo<br>
+                Escrito y Dirigido por Ivan Di Muccio
+                <br>
+                Director de fotografía: Eduardo Ruiz<br>
+                Camarógrafo: Gonzalo Scotti<br>
+                Gaffer: Sol Irrazabal<br>
+                Colorimetría: Matias Bacaicoa<br>
+                Sonido: Jose Scolaro<br>
+                Asistente de sonido: Guadalupe Bazerque<br>
+    
+                Director de Arte: Uriel Cistaro<br>
+                    
+                Créditos Gonzalo: Cacheiro<br>
+                    
+                Música: Micaela Garagiola<br>
+                    
+                Montaje y Post Producción: Ivan Di Muccio<br>
+                    
+                "Los Recuerdos" selección oficial en:<br>
+                - MAAC-24FPS INTERNATIONAL ANIMATION AWARDS, 2018, Mumbai, India<br>
+                -The Lift-Off Sessions First-Time Filmmaker Sessions 2019, Londres, Inglaterra<br>
+            </div>
+           
+        </div>
+    
+    
+    </div>
+    <!-- Vista-->
+    <div class="overlay" id="overlayVista">
+        <div class="popUp" id="popUpVista">
+            <div class="contenedorBoton">
+                <a href="#cortometrajesContenedor" id="botonCerrarVista" class="botonCerrar">
+                    <i class= "fas fa-times"></i>
+                </a>
+            </div>
+            <h4 class="tituloDescripcion">Vista (2018)</h4>
+            <p>Sinopsis: 
+            Una noche, una casa y un acosador con un solo propósito, jugar con su víctima en un laberinto. La desesperación y  la impotencia son los protagonistas de esta historia.
+            </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/98NTxEtjcRw" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
+            <br>
+            <div class="fichaTecnicaTitulo">Ficha técnica: </div>
+            <div class="fichaTecnicaTexto">
+                Protagonizado por Carolina Manetti Cusa y Ezequiel Martinez<br>
+                Producido por Micaela Di Pompo <br>
+                Escrito y Dirigido por Ivan Di Muccio<br>
+                Asistente de dirección Katherine Fretes<br>
+    
+                Director de Fotografía: Jose Scolaro<br>
+                Gaffer: Eduardo Ruiz<br>
+                Camarógrafo: Leonel Barzena<br>
+                Eléctrico: Gonzalo Cacheiro <br>
+                Grip: Nicolas Luna<br>
+    
+                Sonido Directo: Micael Zamora<br>
+                Asistente de Sonido: Yair Zamora<br>
+                Postproducción de sonido Micael Zamora<br>
+    
+                Directora de Arte: Tiziana Laganá<br>
+                Asistente de Arte: Mariana Beiró<br>
+                Ayudante de Arte: Lorena Bogado<br>
+    
+                Montaje: Ivan Di Muccio<br>
+                Colorimetria: Matias Bacaicoa, Leonel Barzena, Ivan Di Muccio<br>
+                Créditos: Gonzalo Cacheiro<br>
+    
+                Musica: Matias D´Atri y Leonel Barzena<br>
+    
+            </div>
+           
+        </div>
+    
+    
+    </div>
+    <!-- paramnesia-->
+    <div class="overlay" id="overlayParamnesia">
+        <div class="popUp" id="popUpParamnesia">
+           <div class="contenedorBoton">
+                <a href="#cortometrajesContenedor" id="botonCerrarParamnesia" class="botonCerrar">
+                    <i class= "fas fa-times"></i>
+                </a>
+            </div>
+            <h4 class="tituloDescripcion">Paramnesia (2018)</h4>
+            <p>Sinopsis: 
+                Definición palabra Paramnesia: Alteración de la memoria por la que el sujeto cree recordar 
+                situaciones que no han ocurrido o modifica algunas circunstancias de aquellas que se han producido.
+                 ¿Qué pasa cuando se alcanza la perfección?
+            </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TWG2esb9qFQ" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
+            <br>
+            <div class="fichaTecnicaTitulo">Ficha técnica: </div>
+            <div class="fichaTecnicaTexto">
+                Protagonizado por: 
+                Ezequiel Martinez, Agustín Segura, Paula Nagorine Lopez, Micaela Pollio, 
+                Mario Charriere, Pablo Miguel Anaya, María Rosa Fugazza, Elizabeth Radakoff, Eduardo Ruiz.<br>
+    
+                Producción Ejecutiva Micaela Di Pompo     <br>
+                Escrito y Dirigido por Ivan Di Muccio<br>
+    
+                Producción general: Katherine Fretes e Iván Di Muccio<br>
+    
+                Jefa de Producción: Micaela Di Pompo<br>
+                Asistente de Dirección:  Katherine Fretes<br>
+                Ayudante de Dirección: Gonzalo Torres<br>
+    
+                Dirección de Fotografía: Pablo Defelipe<br>
+                Gaffer: Andrés López <br>
+                Eléctricos: Eduardo Ruiz,  Ignacio Marauda y Alexander Dueñas<br>
+                Grip:  Nicolas Luna<br>
+    
+                Cámaras: Leonel Barzena e Ivan Di Muccio<br>
+                Cámara B: Matías Bacaicoa<br>
+                Foquistas: Nicolás Videla y José Scolaro<br>
+    
+                Directora de Arte: Georgina Harisgarat<br>
+                Asistente de Arte: Mariela Martinez<br>
+                Ayudante de Arte: Alan Silveira de Castro<br>
+                Maquillaje y Peinado: Micaela Szmiguel<br>
+                Maquilladora Efectista: Florencia Mercado<br>
+    
+                Dirección de Sonido: Matias Lago<br>
+                Sonidista: Santiago Ramos<br>
+                Asistentes de Sonido: Juan Devesa y Milagros Herebia<br>
+    
+                Efectos Especiales: Gonzalo Cacheiro<br>
+                Colorimetría: Pablo Defelipe<br>
+    
+                Postproducción de Sonido: Iván Di Muccio<br>
+                Montaje: Ivan Di Muccio<br>
+                Asistente de Montaje: Daniela Testori y Andres Lopez<br>
+                Motion Graphics: Gonzalo Cacheiro<br>
+    
+                Música: Matías Datri y Leonel Barzena<br>
+    
+                En memoria de Agustín Segura<br>
+    
+            </div>
+           
+        </div>
+    
+    
+    </div>
+    <!-- desconocer-->
+    <div class="overlay" id="overlayDesconocer">
+        <div class="popUp" id="popUpDesconocer">
+            <div class="contenedorBoton">
+                <a href="#cortometrajesContenedor" id="botonCerrarDesconocer" class="botonCerrar">
+                    <i class= "fas fa-times"></i>
+                </a>
+            </div>
+            <h4 class="tituloDescripcion">Desconocer (2019)</h4>
+            <p>Sinopsis: 
+                En un mundo donde ya nadie se interesa por conocer otras personas,  ellos dos se encuentran.
+            </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_pS6GkGyFKg" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
+            <br>
+            <div class="fichaTecnicaTitulo">Ficha técnica: </div>
+            <div class="fichaTecnicaTexto">
+                Protagonizado por Paula Nagorine Lopez y Ezequiel Martinez  <br>
+    
+                Producción: Micaela Di Pompo<br>
+                Escrito por Katherine Fretes con la colaboración de Ivàn Di Muccio<br>
+                Dirección: Katherine Fretes<br>
+                Asistente de Dirección: Iván Di Muccio<br>
+                Jefe de Locaciones: José Scolaro<br>
+                Asistente de producciòn: Santiago Ramos<br>
+    
+                Dirección de Fotografía: Iván Di Muccio y Pablo Defelipe<br>
+                Gaffer: Alexander Dueñas<br>
+                Camarógrafo: Leonel Barzena<br>
+    
+                Dirección de Arte: Georgina Harisgarat<br>
+                Maquillaje y Peinado: Mariela Martínez <br>
+                Efectos Especiales: Mariela Martínez<br>
+    
+                Director de sonido: Matías Lago<br>
+    
+                Montaje y posproducción: Iván Di Muccio <br>
+                Música: Agustín Álvarez<br>
+                Créditos: Gonzalo Cacheiro<br>
+    
+            </div>
+           
+        </div>
+    
+    
+    </div>
+    <!-- instrucciones-->
+    <div class="overlay" id="overlayInstrucciones">
+        <div class="popUp" id="popUpInstrucciones">
+            <div class="contenedorBoton">
+                <a href="#cortometrajesContenedor" id="botonCerrarInstrucciones" class="botonCerrar">
+                    <i class= "fas fa-times"></i>
+                </a>
+            </div>
+            <h4 class="tituloDescripcion">Instrucciones (2019) Work in progress </h4>
+            <p>Sinopsis: 
+                Un hombre sin memoria vive su día a día recibiendo instrucciones de un libro. Un día debe bajar siete pisos de escalera, pero justo esa página ha sido arrancada. 
+    
+            </p>
+            <iframe class="videoEnlace" width="560" height="315" src="https://www.youtube.com/embed/gzlwSAsleBQ" 
+            title="Los Recuerdos" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
+            <br>
+            <div class="fichaTecnicaTitulo">Ficha técnica: </div>
+            <div class="fichaTecnicaTexto">
+                Protagonizado por Ezequiel Martinez y Emiliano Lamoglie<br>
+    
+                Escrito, Dirigido y Producido por Ivan Di Muccio<br>
+                Producido por Katherine Fretes<br>
+                Jefa de Producción: Micaela Di Pompo<br>
+                Asistente de dirección: Katherine Fretes<br>
+    
+                Director de Fotografía: Pablo Defelipe<br>
+                Eléctricos: Alex Dueñas y Andres Lopez<br>
+                Camarógrafo: Leonel Barzena<br>
+                Asistente de Cámara: Christian Castro <br>
+    
+                Directora de Arte: Valentina Farias<br>
+                Asistente de Arte: Camila Palma<br>
+                Maquillaje y peinado: Maru<br>
+    
+                Sonido: Matias Lagos<br>
+                Asistente de sonido: Juan Devesa<br>
+    
+    
+            </div>
+           
+        </div>
+    </div>
+    <!-- nocturna-->
+    <div class="overlay" id="overlayNocturna">
+        <div class="popUp" id="popUpNocturna">
+           <div class="contenedorBoton">
+                <a href="#cortometrajesContenedor" id="botonCerrarNocturna" class="botonCerrar">
+                    <i class= "fas fa-times"></i>
+                </a>
+            </div>
+            <h4 class="tituloDescripcion">Nocturna (2020)</h4>
+            <p>Sinopsis: 
+                Las cosas no siempre son lo que parecen. Aún hay espacio para la magia.
+            </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jQTz0eNrYLI" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
+            <br>
+            <div class="fichaTecnicaTitulo">Ficha técnica: </div>
+            <div class="fichaTecnicaTexto">
+                Protagonizado por Carolina Manetti Cusa<br>
+                Realizado por Ivan Di Muccio, Katherine Fretes, Pablo Defelipe, Alexander Dueñas y Gonzalo Cacheiro.
+    
+            </div>
+           
+        </div>
+    
+    
+    </div>
+    <!-- somos jorge-->
+    <div class="overlay" id="overlaySomosJorge">
+        <div class="popUp" id="popUpSomosJorge">
+            <div class="contenedorBoton">
+                <a href="#cortometrajesContenedor" id="botonCerrarSomosJorge" class="botonCerrar">
+                    <i class= "fas fa-times"></i>
+                </a>
+            </div>
+            <h4 class="tituloDescripcion">Todos Somos Jorge (2021)</h4>
+            <p>Sinopsis: 
+                Esta es la historia de Jorge... un estudiante de cine.
+            </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-ceMnXiK7sE" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
+            <br>
+            <div class="fichaTecnicaTitulo">Ficha técnica: </div>
+            <div class="fichaTecnicaTexto">
+                Realizada por Katherine Fretes<br>
+                Escrita por Ivan Di Muccio<br>
+                Protagonizada por Pablo Defelipe e Ivan Di Muccio<br>
+    
+            </div>
+           
+        </div>
+    
+    </div>
+    <!-- el ultimo cuadro-->
+    <div class="overlay" id="overlayUltimoCuadroDorado">
+        <div class="popUp" id="popUpUltimoCuadroDorado">
+            <div class="contenedorBoton">
+                <a href="#cortometrajesContenedor" id="botonCerrarUltimoCuadroDorado" class="botonCerrar">
+                    <i class= "fas fa-times"></i>
+                </a>
+            </div>
+            <h4 class="tituloDescripcion">El Último Cuadrado Dorado (2021)</h4>
+            <p>Sinopsis: 
+                Dos hermanos con una rivalidad épica, batallan por el Último Cuadrado Dorado.
+            </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/u5P2MiOcp18" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
+            <br>
+            <div class="fichaTecnicaTitulo">Ficha técnica: </div>
+            <div class="fichaTecnicaTexto">
+                Protagonizado por Horacio Formoso y Juan Villar <br>
+                Realizado por Ivan Di Muccio, Daniel Guillan, Katherine Fretes y Alex Dueñas
+    
+            </div>
+           
+        </div>
+    
+    </div>
+    <!-- projecto avellaneda-->
+    <div class="overlay" id="overlayProyectoAvellaneda">
+        <div class="popUp" id="popUpProyectoAvellaneda">
+            <div class="contenedorBoton">
+                <a href="#miniseriesContenedor" id="botonCerrarProyectoAvellaneda" class="botonCerrar">
+                    <i class= "fas fa-times"></i>
+                </a>
+            </div>
+            <h4 class="tituloDescripcion">Proyecto Avellaneda (2019)</h4>
+            <p>Sinopsis: 
+                Un grupo de cuatro científicos busca probar la existencia de vida alienígena en Avellaneda, una pequeña ciudad de Buenos Aires, Argentina.
+            </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Naxf3Kn3eQc" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+             </iframe>
+            <br>
+            <div class="fichaTecnicaTitulo">Ficha técnica: </div>
+            <div class="fichaTecnicaTexto">
+                Protagonizada por Ezequiel Martinez, Eduardo Ruiz, Gonzalo Torres y Pablo Capasso <br>
+    
+                Producida por Katherine Fretes<br>
+                Escrita y Dirigida por Ivan Di Muccio<br>
+                Asistente de dirección: Katherine Fretes<br>
+                Director de Fotografía: Pablo Defelipe<br>
+                Directora de Arte: Valentina Farias<br>
+    
+            </div>
+           
+        </div>
+    
+    </div>
+    <!-- timepo de cuarentena-->
+    <div class="overlay" id="overlayTiempoCuarentena">
+        <div class="popUp" id="popUpTiempoCuarentena">
+            <div class="contenedorBoton">
+                <a href="#miniseriesContenedor" id="botonCerrarTiempoCuarentena" class="botonCerrar">
+                    <i class= "fas fa-times"></i>
+                </a>
+            </div>
+            <h4 class="tituloDescripcion">Tiempo de Cuarentena (2020)</h4>
+            <p>Sinopsis: 
+                "Tiempo de cuarentena" es una reflexión que problematiza el uso del bien más preciado y menos valorado que tenemos: El Tiempo. 
+                Acaso tuvimos más tiempo en la cuarentena? La tecnología que día a día se vende bajo el eslogan de "hacer tu vida más fácil" o de "ahorrar tiempo "termina cumpliendo su objetivo?  
+                Es cierto que quizás con avances tecnológicos, algunas tareas cotidianas sean más fáciles y rápidas, pero ¿tenemos más tiempo para que? 
+                Solo tenemos más tiempo para ocuparlo y ocuparnos más y más. La falsa idea del futuro autómata trae consigo nuevas formas de ahorrar, pero también de perderlo. Dónde está la solución a este problema del progreso?            
+            </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/A7lI79bc_S4" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
+            <br>
+            <div class="fichaTecnicaTitulo">Ficha técnica: </div>
+            <div class="fichaTecnicaTexto">
+                Realizado por Ivan Di Muccio, Katherine Fretes y Agustin Alvarez. 
+            </div>
+           
+        </div>
+    
+    
+    </div>
+    <!-- los noventa-->
+    <div class="overlay" id="overlayLosNoventa">
+        <div class="popUp" id="popUpLosNoventa">
+            <div class="contenedorBoton">
+                <a href="#miniseriesContenedor" id="botonCerrarLosNoventa" class="botonCerrar">
+                    <i class= "fas fa-times"></i>
+                </a>
+            </div>
+            <h4 class="tituloDescripcion">Los Noventa (2023) Work in Progress</h4>
+            <p>Sinopsis: 
+                La década más rara del país, retratada de la forma mas rara.
+            </p>
+            <iframe class="videoEnlace" width="560" height="315" src="https://www.youtube.com/embed/gzlwSAsleBQ" 
+            title="Los Recuerdos" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
+            <br>
+            <div class="fichaTecnicaTitulo">Ficha técnica: </div>
+            <div class="fichaTecnicaTexto">
+                Producción Ejecutiva: Ivan Di Muccio<br>
+                Producción Katherine: fretes<br>
+                Dirección y Guión: Pablo Defelipe<br>
+    
+            </div>
+           
+        </div>
+    
+    </div>
+    <!-- 123 va-->
+    <div class="overlay" id="overlay123Va">
+        <div class="popUp" id="popUp123Va">
+            <div class="contenedorBoton">
+                <a href="#documentalesContenedor" id="botonCerrar123Va" class="botonCerrar">
+                    <i class= "fas fa-times"></i>
+                </a>
+            </div>
+            <h4 class="tituloDescripcion">1,2,3 Va (2023) Work in progres</h4>
+            <p>Sinopsis: 
+            Una pareja se toma un fin de semana para analizar qué hacer con su relación, su filosofía de vida y más.
+            </p>
+            <iframe class="videoEnlace" width="560" height="315" src="https://www.youtube.com/embed/gzlwSAsleBQ" 
+            title="Los Recuerdos" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
+            <br>
+            <div class="fichaTecnicaTitulo">Ficha técnica: </div>
+            <div class="fichaTecnicaTexto">
+                Realizado por Ivan DI Muccio, Katherine Fretes, Pablo Defelipe, Cristian Cisterna, Alejandro Fernandez y Giuliana Carou. 
+            </div>
+           
+        </div>
+    
+    
+    </div>
+    
+    <script src="https://kit.fontawesome.com/3f361eea5f.js" crossorigin="anonymous"></script>
+    <script src="{% static './js/Proyectos.js' %}"></script>
+    </main>

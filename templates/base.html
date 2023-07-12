@@ -1,0 +1,75 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rústico Producciones</title>
+    <link rel="stylesheet" href="{% static './css/style1.css' %}">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="{% static './js/header.js' %}"></script>
+</head>
+
+<body>
+    <div class="headerw">
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    <div class="logoimg">
+                        <img class="logoimgg" src="{% static './media/images/16.9 negro.jpg' %}" alt="">
+                    </div>
+                    <div class="logotext">
+                        <h1 class="titulo">Rústico Producciones</h1>
+                    </div>
+                </div>
+                <div class="navbar">
+                    <nav>
+                        <div class="navbarin">
+                            <ul>
+                                <b><strong>
+                                        <div class="navbutton" id="inicio">
+                                            <a href="#">
+                                                <li>Inicio</li>
+                                            </a>
+                                        </div>
+                                        <div class="navbutton" id="proyectos">
+                                            <a href="./proyectos.html">
+                                                <li>Proyectos</li>
+                                            </a>
+                                        </div>
+                                        <div class="navbutton" id="us">
+                                            <a href="./nosotros/nosotros.html">
+                                                <li>Nosotros</li>
+                                            </a>
+                                        </div>
+                                        <div class="navbutton" id="contacto">
+                                            <a href="./contacto.html">
+                                                <li>Contacto</li>
+                                            </a>
+                                        </div>
+                                </b></strong>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    {% block content %}
+    {% endblock %}
+
+
+
+    <footer>
+        <div class="footertexto">
+            <p>Copyrights © 2023 Rústico Producciones</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>

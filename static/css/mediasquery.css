@@ -1,0 +1,322 @@
+@media screen and (max-width: 1300px) {
+    .navbar {
+        align-items: center;
+    }
+
+    .navbarin {
+        width: max-content;
+        border-radius: 10px;
+    }
+
+    .header2 {
+        height: 20vh;
+    }
+
+
+    a,
+    a:hover {
+        margin: 1rem;
+    }
+
+
+    #main {
+        justify-content: center;
+    }
+
+    .otrocont {
+        margin-top: 2.5rem;
+        width: 40vw;
+        height: max-content;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+
+    .header2 {
+        width: 100vw;
+    }
+
+    .logo {
+        display: flex;
+        width: 28%;
+        align-items: center;
+    }
+
+    .logotext {
+        display: none;
+    }
+
+    .logoimg {
+        margin-left: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoimgg {
+        height: 80%;
+    }
+
+
+    .navbar {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbarin {
+        display: flex;
+        justify-content: center;
+        margin-right: 5rem;
+        width: fit-content;
+    }
+
+    #main {
+        margin-top: 12rem;
+        display: flex;
+        justify-content: center;
+        z-index: 1;
+        overflow: hidden;
+        -webkit-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+        width: 100vw;
+    }
+
+    .maincontainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: #030303;
+        height: 160vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .main2 {
+        margin-top: 12rem;
+        -webkit-transition: all 200ms ease;
+        -o-transition: all 200ms ease;
+        transition: all 200ms ease;
+    }
+
+    .carruselinicio {
+        margin-left: 0rem;
+        margin-top: 1rem;
+        width: 80vw;
+        height: 70vh;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .carruselPrincipal {
+        text-align: center;
+        font-size: 40px;
+        margin: 2rem 0 0 2rem;
+        display: flex;
+        width: 120%;
+        border: 10px #E16428 solid;
+        height: 80%;
+        background-color: #f3f3f3;
+    }
+
+    .RusticoImagenInicio {
+        height: 100%;
+        width: 100%;
+    }
+
+    .otrocont {
+        color: #f3f3f3;
+        border: solid white 3px;
+        margin: 0rem 0rem 0rem 2rem;
+        display: flex;
+        height: max-content;
+        width: 90vw;
+        text-align: left;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .headerw {
+        display: flex;
+        justify-content: center;
+    }
+
+    header {
+        display: block;
+        border-bottom: 20px solid rgba(2, 84, 100, 0.1);
+        height: 35vh;
+        width: 100vw;
+        overflow: hidden;
+        z-index: 2;
+        background-color: #030303;
+        -webkit-transition: all 200ms ease;
+        -o-transition: all 200ms ease;
+        transition: all 200ms ease;
+
+    }
+
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: inherit;
+        width: inherit;
+
+    }
+
+    .logo {
+        font-size: 24px;
+        display: flex;
+        height: 20vh;
+        width: 100%;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+
+    .logoimg {
+        display: flex;
+        justify-content: center;
+        height: inherit;
+        width: inherit;
+
+    }
+
+    .logoimgg {
+        height: inherit;
+    }
+
+    .navbar {
+        display: flex;
+        height: 15vh;
+        width: 100vw;
+        align-items: flex-start;
+        justify-content: center;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: right;
+        margin: 0;
+
+    }
+
+    .navbarin {
+        margin-left: 10rem;
+        display: flex;
+        justify-content: center;
+        height: inherit;
+        width: inherit;
+        overflow: hidden;
+        border: #030303 solid 3px;
+    }
+
+    .header2 {
+        height: 22vh;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .logo {
+        justify-content: center;
+        margin-right: 3rem;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+
+    }
+
+    .navbarin {
+        margin-left: 5rem;
+        width: 100vw;
+    }
+
+    .lastcont {
+        margin: 3rem;
+
+    }
+
+    #main {
+        padding-bottom: 5rem;
+    }
+
+    .carruselinicio {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .carruselPrincipal {
+        margin-left: 0;
+        justify-self: center;
+    }
+
+    .maincontainer {
+        background-color: rgba(2, 84, 100, 0.1);
+        ;
+    }
+
+    footer {
+        background-color: #030303;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 22vh;
+        position: absolute;
+    }
+
+    .logoimg {
+        justify-content: flex-start;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    #main {
+        margin-top: 10rem;
+    }
+
+    .maincontainer{
+        
+        background-color: #030303;
+    }
+
+    .carruselPrincipal {
+        height: 35vh;
+        margin-bottom: 0;
+    }
+
+    .carruselinicio {
+        height: 40vh;
+    }
+
+
+    .otrocont {
+        margin-top: 0;
+        margin-left: 0;
+        width: 100vw;
+        ;
+    }
+
+    footer{
+        background-color: rgba(2, 84, 100, 0.1);
+    }
+
+    .header2{
+
+        display: none;
+    }
+}

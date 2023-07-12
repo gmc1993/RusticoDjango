@@ -1,0 +1,37 @@
+ [
+    {
+        "id":1,
+        "nombre": "Iván di Muccio",
+        "area": "Director y Guionista",
+        "detalles": "",
+        "imagen_url": "{% static '../templates/nosotros/css/creador.jpeg' %}"
+    },
+    {
+        "id":2,
+        "nombre": "Micaela Di Pompo",
+        "area": "Productora Ejecutiva",
+        "detalles": "",
+        "imagen_url": "{% static '../templates/nosotros/css/productora.jpeg' %}"
+    },
+    {
+        "id":3,
+        "nombre": "Katherine Fretes",
+        "area": "Productora General",
+        "detalles": "",
+        "imagen_url": "{% static '../templates/nosotros/css/productora.jpeg' %}"
+    },
+    {
+        "id":4,
+        "nombre": "Pablo Defelipe",
+        "area": "Director de Fotografia",
+        "detalles": "",
+        "imagen_url": "{% static '../templates/nosotros/css/fotografo.jpeg' %}"
+    },
+    {
+        "id":5,
+        "nombre": "Leonel Barzena",
+        "area": "Camaras",
+        "detalles": "",
+        "imagen_url": "{% static '../templates/nosotros/css/equipo2.jpg' %}"
+    }
+]

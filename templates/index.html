@@ -1,0 +1,45 @@
+
+
+{% extends 'base.html' %}
+
+
+{% block content %}
+{% load static %}
+    <main id="main">
+        <section class="maincontainer">
+            <div class="carruselinicio">
+                <div class="carruselPrincipal">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_S3nxEOuKC8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen class="RusticoImagenInicio"><img src="{% static './media/images/RusticoImagenInicio.jpg'}"
+                            alt="R" class="RusticoImagenInicio"></iframe>
+
+                </div>
+            </div>
+            <div class="otrocont">
+                <div class="cajatexto">
+                    Rústico Producciones es una productora audiovisual independiente con base en Buenos Aires,
+                    Argentina, creada en el 2017. La propuesta nace de los sueños y del objetivo de generar relatos
+                    desde nuevas perspectivas, atreviéndose a narrar historias de ficción dentro de diversos formatos
+                    con alcance nacional e internacional.
+                </div>
+            </div>
+
+            <div class="lastcont">
+                <div class="cajatexto2">
+                    <br>
+                    <h1></h1>
+                    <p>Hasta la fecha hemos realizado doce cortometrajes, tres miniseries web, un documental y nos
+                        encontramos desarrollando dos proyectos de largometraje. Nos destacamos en la generación de
+                        entornos creativos alentadores donde cada artista encuentra la estructura y la base para superar
+                        sus límites. </p>
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+
+     {% endblock %}

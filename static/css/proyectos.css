@@ -1,0 +1,576 @@
+
+@import url(./header.css);
+@import url(./mediasquery.css);/**/
+
+header{
+  z-index: 550;
+}
+
+@font-face {
+  font-family: "Capsuula";
+  src: url("../media/Fonts/Capsuula.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Capsuula;
+}
+
+:root{
+--colorPrincipal: #f85e19;
+--colorLuces: #ffbe48;
+--colorSombras: #ff5d5b;
+*{
+  margin: 0;
+  padding: 0;
+}
+
+}
+
+main{
+  padding-top: 13rem;
+}
+
+
+body{
+  background: black;
+
+}
+
+.contenedor{
+  width: 90%;
+  margin: auto;
+}
+
+#mainProyectos{
+  padding-top: 15rem;
+}
+
+/*---contenedor titulo y controles---*/
+.contenedorTituloControles{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.contenedorTituloControles h3{
+color: #fff;
+font-size: 30px;
+}
+.contenedorTituloControles .indicadores button{
+  background: #fff;
+  height: 4px;
+  width: 10px;
+  cursor: pointer;
+  border: none;
+  margin-right: 2px;
+
+}
+
+.contenedorTituloControles .indicadores button:hover,
+.contenedorTituloControles .indicadores button.activo {
+  background: var(--colorPrincipal);
+}
+
+
+/*---contenedor y flechas---*/
+
+.cortometrajes {
+  margin-bottom: 70px;
+}
+
+.cortometrajes .contenedorPrincipal {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.cortometrajes .contenedorPrincipal .flechaIzquierda,
+.cortometrajes .contenedorPrincipal .flechaDerecha {
+  position: absolute;
+  border: none;
+  background: rgba(0, 0, 0, 0.3);
+  font-size: 40px;
+  height: 50%;
+  top: calc(50% - 25%);
+  line-height: 40px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 500;
+  transition: .2s ease all;
+
+
+}
+.cortometrajes .contenedorPrincipal .flechaIzquierda{
+  left: 0;
+}
+
+.cortometrajes .contenedorPrincipal .flechaDerecha{
+  right: 0;
+}
+
+.cortometrajes .contenedorPrincipal .flechaIzquierda:hover,
+.cortometrajes .contenedorPrincipal .flechaDerecha:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+/*---carrusel---*/
+
+.cortometrajes .contenedorCarrusel {
+
+  width: 100vw;
+  padding: 20px 0;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+.cortometrajes .contenedorCarrusel .carrusel {
+display: flex;
+flex-wrap: nowrap;
+}
+
+.cortometrajes .contenedorCarrusel .carrusel .poster{
+  min-width: 25%;
+  max-height: 80%;
+  transition: .3s ease all;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.cortometrajes .contenedorCarrusel .carrusel .poster img{
+  width: 100%;
+  vertical-align: top;
+}
+/*---contenedor y flechas---*/
+.cortometrajes .contenedorCarrusel .carrusel .poster img:hover{
+  transform: scale(1.2);
+  transform-origin: center;
+  transition-delay: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+
+
+/*-------------------------------------miniseries---------------------------------------------*/
+
+/*---contenedor y flechas---*/
+.contenedorTituloControles .indicadores2 button{
+  background: #fff;
+  height: 4px;
+  width: 10px;
+  cursor: pointer;
+  border: none;
+  margin-right: 2px;
+
+}
+
+.contenedorTituloControles .indicadores2 button:hover,
+.contenedorTituloControles .indicadores2 button.activo {
+  background: var(--colorPrincipal);
+}
+
+
+.miniseries {
+  margin-bottom: 70px;
+}
+
+.miniseries .contenedorPrincipal {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.miniseries .contenedorPrincipal .flechaIzquierda,
+.miniseries .contenedorPrincipal .flechaDerecha {
+  position: absolute;
+  border: none;
+  background: rgba(0, 0, 0, 0.3);
+  font-size: 40px;
+  height: 50%;
+  top: calc(50% - 25%);
+  line-height: 40px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 500;
+  transition: .2s ease all;
+
+
+}
+.miniseries .contenedorPrincipal .flechaIzquierda{
+  left: 0;
+}
+
+.miniseries .contenedorPrincipal .flechaDerecha{
+  right: 0;
+}
+
+.miniseries .contenedorPrincipal .flechaIzquierda:hover,
+.miniseries .contenedorPrincipal .flechaDerecha:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+/*---carrusel---*/
+
+.miniseries .contenedorCarrusel {
+
+  width: 100vw;
+  padding: 20px 0;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  
+}
+.miniseries .contenedorCarrusel .carrusel {
+display: flex;
+flex-wrap: nowrap;
+
+}
+
+.miniseries .contenedorCarrusel .carrusel .poster2{
+  min-width: 25%;
+  max-width: 25%;
+  transition: .3s ease all;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.miniseries .contenedorCarrusel .carrusel .poster2 img{
+  width: 100%;
+
+  vertical-align: top;
+}
+
+.miniseries .contenedorCarrusel .carrusel .poster2 img:hover{
+  transform: scale(1.2);
+  transform-origin: center;
+  transition-delay: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+
+
+
+
+/*--------------------------------------------documentales---------------------------*/
+
+/*---contenedor y flechas---*/
+.contenedorTituloControles .indicadores3 button{
+  background: #fff;
+  height: 4px;
+  width: 10px;
+  cursor: pointer;
+  border: none;
+  margin-right: 2px;
+
+}
+
+.contenedorTituloControles .indicadores3 button:hover,
+.contenedorTituloControles .indicadores3 button.activo {
+  background: var(--colorPrincipal);
+}
+
+
+.documentales {
+  margin-bottom: 70px;
+}
+
+.documentales .contenedorPrincipal {
+  display: flex;
+  align-items: center;
+}
+
+.documentales .contenedorPrincipal .flechaIzquierda,
+.documentales .contenedorPrincipal .flechaDerecha {
+  position: absolute;
+  border: none;
+  background: rgba(0, 0, 0, 0.3);
+  font-size: 40px;
+  height: 50%;
+  top: calc(50% - 25%);
+  line-height: 40px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 500;
+  transition: .2s ease all;
+
+
+}
+.documentales .contenedorPrincipal .flechaIzquierda{
+  left: 0;
+}
+
+.documentales .contenedorPrincipal .flechaDerecha{
+  right: 0;
+}
+
+.documentales .contenedorPrincipal .flechaIzquierda:hover,
+.documentales .contenedorPrincipal .flechaDerecha:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+/*---carrusel---*/
+
+.documentales .contenedorCarrusel {
+
+  width: 100vw;
+  padding: 20px 0;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+.documentales .contenedorCarrusel .carrusel {
+display: flex;
+flex-wrap: nowrap;
+}
+
+.documentales .contenedorCarrusel .carrusel .poster3{
+  min-width: 25%;
+  max-width: 25%;
+  transition: .3s ease all;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.documentales .contenedorCarrusel .carrusel .poster3 img{
+  width: 100%;
+  vertical-align: top;
+  position: relative;
+}
+
+.documentales .contenedorCarrusel .carrusel .poster3 img:hover{
+  transform: scale(1.2);
+  transform-origin: center;
+  transition-delay: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+
+.creditosIzq{
+  display: inline-block;
+  margin: 0px 10px 0px 10px;
+
+
+}
+
+
+.creditosDer{
+  display: inline-block;
+  margin: 0px 10px 0px 10px;
+
+}
+
+
+
+
+/*--------------------------------------------pop up---------------------------*/
+
+.overlay{
+  visibility: hidden;
+  height: 100%;
+  background: 0,0,0,rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 600;
+}
+.active{
+  visibility: visible;
+}
+
+.popUp{
+  background: #191919;
+  color: white; 
+  text-align: center;
+  padding: 20px;
+  max-height:90%;
+  max-width: 90%;
+  overflow: auto;
+  font-size: 1.2rem;
+  
+}
+.contenedorBoton {
+  display: flex;
+  justify-content: right;
+}
+
+.botonCerrar {
+  font-size: 20px;
+  line-height: 10px;
+  display: block;
+  text-align: right;
+  color: var(--colorPrincipal);
+  
+
+}
+
+.botonCerrar:hover{
+  color: var(--colorLuces);
+}
+
+.overlay h4{
+  font-size: 2.3rem;
+  margin: auto;
+
+}
+.videoEnlace{
+
+  margin: 1rem;
+}
+.popUp p{
+  margin: .5rem;
+
+}
+.fichaTecnicaTitulo{
+  font-weight: 700;
+  text-decoration: underline solid var(--colorLuces);
+  text-align: left;
+  margin: .5rem;
+}
+
+.fichaTecnicaTexto{
+  margin: 0.5rem;
+  text-align: left;
+  line-height: 1.6;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+  -webkit-column-rule: 1px solid var(--colorLuces);
+  -moz-column-rule: 1px solid var(--colorLuces);
+  column-rule: 1px solid var(--colorLuces);
+  /*
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 25px;
+  -moz-column-gap: 25px;
+  column-gap: 25px;
+  -webkit-column-rule: 1px solid var(--colorLuces);
+  -moz-column-rule: 1px solid var(--colorLuces);
+  column-rule: 1px solid var(--colorLuces);
+  */
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+  .cortometrajes .contenedorCarrusel {
+    overflow: visible;
+  }
+  .cortometrajes .contenedorCarrusel .carrusel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .cortometrajes .contenedorCarrusel .carrusel .poster{
+    max-width: 95%;
+    transition: .3s ease all;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .cortometrajes .indicadores,
+  .cortometrajes .flechaIzquierda,
+  .cortometrajes .flechaDerecha {
+
+  display: none;    
+
+  }
+  .miniseries .contenedorCarrusel {
+    overflow: visible;
+  }
+  .miniseries .contenedorCarrusel .carrusel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+  }
+
+  .miniseries .contenedorCarrusel .carrusel .poster2{
+    max-width: 95%;
+    transition: .3s ease all;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+
+  .documentales .contenedorCarrusel {
+    overflow: visible;
+  }
+  .documentales .contenedorCarrusel .carrusel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+
+  .documentales .contenedorCarrusel .carrusel .poster3{
+    max-width: 95%;
+    transition: .3s ease all;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .cortometrajes .contenedorCarrusel {
+    overflow: visible;
+  }
+  .cortometrajes .contenedorCarrusel .carrusel {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .cortometrajes .contenedorCarrusel .carrusel .poster{
+    max-width: 95%;
+    transition: .3s ease all;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .cortometrajes .indicadores,
+  .cortometrajes .flechaIzquierda,
+  .cortometrajes .flechaDerecha {
+
+  display: none;    
+
+  }
+
+  .miniseries .contenedorCarrusel {
+    overflow: visible;
+  }
+  .miniseries .contenedorCarrusel .carrusel {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+
+  }
+
+  .miniseries .contenedorCarrusel .carrusel .poster2{
+    max-width: 95%;
+    transition: .3s ease all;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+
+  .documentales .contenedorCarrusel {
+    overflow: visible;
+  }
+  .documentales .contenedorCarrusel .carrusel {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+
+  .documentales .contenedorCarrusel .carrusel .poster3{
+    max-width: 95%;
+    transition: .3s ease all;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+
+
+
+}

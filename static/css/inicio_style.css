@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "Capsuula";
+    src: url("../media/Fonts/Capsuula.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Capsuula;
+}
+
+main {
+    padding-top: 0rem;
+    margin-top: 12rem;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    width: 99vw;
+    height: max-content;
+
+}
+
+.maincontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #030303;
+    height: 120vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main2 {
+    margin-top: 12rem;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.carruselinicio {
+    margin-left: 0rem;
+    margin-top: 1rem;
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.carruselPrincipal {
+    text-align: center;
+    font-size: 40px;
+    margin: 2rem 0 0 2rem;
+    display: flex;
+    width: 120%;
+    border: 10px #E16428 solid;
+    height: 80%;
+    background-color: #f3f3f3;
+}
+
+.RusticoImagenInicio {
+    height: 100%;
+    width: 100%;
+}
+
+.otrocont {
+    color: #f3f3f3;
+    border: solid white 3px;
+    display: flex;
+    height: fit-content;
+    width: 36vw;
+    text-align: left;
+    overflow: hidden;
+}
+
+.cajatexto {
+    margin: 1rem;
+    font-size: 34px;
+}
+
+.lastcont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid white 3px;
+    display: flex;
+    margin: 0rem 2rem 6rem 3rem;
+    width: 80vw;
+    height: fit-content;
+}
+
+.cajatexto2 {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    color: #f3f3f3;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.cajatexto2:hover,
+.otrocont:hover {
+
+    background-color: #f3f3f3;
+    color: #030303;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.cajatexto2 p {
+    font-size: 25px;
+}
+
+footer {
+    height: 10vh;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    background-color: rgba(2, 84, 100, 0.1);
+}
+
+.footertexto {
+    color: #f3f3f3;
+    font-size: 20px;
+    height: inherit;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

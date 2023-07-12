@@ -1,0 +1,181 @@
+@import url(./header.css);
+@import url(./mediasquery.css);
+
+:root {
+    --primary: black;
+    --gradient: linear-gradient(135deg, #f85e19 0%, black 100%);
+    --black: #f85e19;
+}
+
+@font-face {
+    font-family: "Capsuula";
+    src: url("../media/Fonts/Capsuula.ttf");
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: Capsuula;
+  }
+body {
+    font-family: var(--font);
+    background: var(--gradient);
+    margin: 0;
+}
+
+main{
+    padding-top: 13rem;
+}
+
+.contact {
+    margin-top: 3rem;
+}
+
+
+
+.h1 {
+    font-size: 59px;
+    line-height: 95px;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.h1 span {
+    display: block;
+}
+
+.h3 {
+    font-size: 48px;
+    line-height: 77px;
+}
+
+
+.btn {
+    /* font-family: var(--font); */
+    border-radius: 90px;
+    letter-spacing: 1.25px;
+    background: initial;
+    block-size: 50px;
+    display: block;
+    cursor: pointer;
+    user-select: none;
+   
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+   
+    border: 2px solid var(--primary);
+    font-weight: bold;
+    padding: 0 1.5em;
+}
+
+.btn.full {
+    width: 100%;
+}
+
+.btn.primary {
+    background: var(--black);
+}
+
+.btn.secondary img {
+    position: relative;
+    bottom: 1px;
+}
+
+.btn i {
+    display: inline-block;
+}
+
+.btn span {
+    vertical-align: middle;
+}
+
+.btn i img {
+    vertical-align: middle;
+}
+
+
+
+.form {
+    max-inline-size: 500px;
+    margin: auto;
+}
+
+.form label {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: .5em;
+    padding-inline-start: .5em;
+}
+
+.form label span {
+    color: #c78148;
+}
+
+.form input,
+.form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+    padding: .8em;
+    border-radius: .5em;
+    border: 1px solid #948b85;
+}
+
+.form textarea {
+    margin-block-end: 2em;
+    font-family: inherit;
+}
+
+input::-webkit-input-placeholder {
+    color: #0F0A0A88;
+}
+
+
+.contact {
+    margin-block-end: 5em;
+}
+
+
+#correo {
+    opacity: 0;
+}
+
+
+.footercontainer{
+   
+    padding: 60px 30px 20px;
+}
+.social-item{
+  display: flex;
+    justify-content: center;  
+}
+.social-item a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #f85e19;
+    margin: 10px;
+    border-radius: 50%;
+}
+.social-item a i{
+    font-size:2em;
+    color:black;
+    opacity:0.9s;
+}
+
+.social-item a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.social-item a:hover{
+    color: #c78148;
+    transition: 0.5s;
+}
+.footertexto{
+    display: flex;
+    justify-content: center;
+}
+.footertexto{
+   color:white;
+   font-size: 1.5em;
+}

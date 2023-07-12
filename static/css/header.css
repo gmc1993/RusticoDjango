@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Capsuula";
+    src: url("../media/Fonts/Capsuula.ttf");
+  }
+
+body {
+    position: relative;
+    background-color: #030303;
+    min-height: 120vh;
+    width: 99vw;
+}
+
+.titulo {
+    color: #f3f3f3;
+}
+
+.headerw {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+
+    position: fixed;
+    display: block;
+    border-bottom: 20px solid rgba(2, 84, 100, 0.1);   /* */
+    height: 27vh;
+    width: 99vw;
+    overflow: hidden;
+    z-index: 2;
+    background-color: #030303;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: inherit;
+    width: inherit;
+
+}
+
+.logo {
+    font-size: 24px;
+    display: flex;
+    height: inherit;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logotext {
+    width: min-content;
+
+}
+
+.logoimg {
+    height: inherit;
+    width: auto;
+}
+
+
+.logoimgg {
+    height: inherit;
+}
+
+.navbar {
+    display: flex;
+    height: inherit;
+    width: 50%;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.navbarin {
+    margin-left: 3rem;
+    display: flex;
+    justify-content: end;
+    height: 100%;
+    width: 50vw;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 30px;
+    overflow: hidden;
+    border: #E16428 solid 3px;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbutton {
+
+    display: inline-block;
+}
+
+.navbar a,
+.navbar a:hover {
+    color: #f3f3f3;
+    font-size: 22px;
+    font-style: bold;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0.5rem 2rem 0.2rem 1.5rem;
+    padding: 0.7rem 1rem;
+    border: solid 3px #ffbe48;
+    border-radius: 10px;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.navbar a:hover {
+    color: #030303;
+    background-color: #ffbe48;
+}
+
+.header2 {
+    position: fixed;
+    display: block;
+    height: 20vh;
+    width: 95vw;
+    overflow: hidden;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    border-bottom: 15px solid rgba(2, 84, 100, 0.1);
+}
